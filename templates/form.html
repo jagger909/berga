@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        .zayavka_form {
+            display: block;
+            width: 250px;
+
+        }
+    </style>
+</head>
+<body>
+<h1>Попробуй отправь смс. БисмИллях:</h1>
+<div class="zayavka_form">
+
+    <form action="/main/zayavka/" method="post">
+        {% csrf_token %}
+        {{ zayavka_form }}
+        <input type="submit" class="button" value="Отправить смс:">
+    </form>
+
+</div>
+<p class="sms_text">{{ sms_text }}</p>
+<p class="sms_text">{{ sms_request }}</p>
+</body>
+</html>

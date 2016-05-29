@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/stylescss.css">
+
+
+    <style>
+
+
+    </style>
+</head>
+
+
+<body>
+<header id="page-header">
+    <div class="row">
+        <div id="headerwrap">
+            <div class="header">
+                <div class="home-logo">
+                    <div class="home-logo__default" role="img" aria-label="Бережный груз"></div>
+                </div>
+
+                <div class="top-bar">
+
+                    <div class="top-bar-left">
+
+                    </div>
+
+                    <div class="top-bar-right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="show_case">
+    <div id="showcasewrap">
+        <div id="showcase" class="clearfix xtc-wrapper showcasespacer">
+            <div id="inset">
+
+                <div class="module title-off ">
+                    <div class="modulecontent">
+
+                        <div class="custom">
+                            <div class="helloimg"></div>
+                            <div style="float: right; width: 564px;">
+                                <div class="hello"></div>
+                                <div class="hello_txt">
+                                    <p class="hellointro"><span class="hellocolor">Доставка грузов</span></p>
+                                    <p class="hellointro"><span class="hellocolor">Грузоперевозки</span></p>
+
+                                </div>
+                                <div class="telephon">
+                                    <div class="telephon_num">
+                                        <p class="">+7 (917) 935 48 24</p>
+                                    </div>
+                                    <div class="telephon_ico"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="callback">
+
+    <div id="razdelitel" class="row">
+        <div class="columns smal-12" style="height: 4em; margin-bottom: 2em;">
+            <div id="polosa" class="columns small-4"></div>
+
+            <div id="razdelitel-text" class="columns small-4">
+                <h2 class="text-center" style="color: #fcfcfc;">Свяжитесь с нами</h2>
+            </div>
+            <div id="polosa" class="columns small-4"></div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="medium-6 columns">
+
+            <div class="row">
+
+                <div class="large-6 columns small-centered">
+
+                    <div class="signup-panel">
+                        <p class="welcome"> Обратный звонок!</p>
+
+                        <form action="/zayavka/" method="post">
+                            {% csrf_token %}
+
+                            <div class="row collapse">
+
+                                <div class="small-2  columns">
+                                    <span class="prefix"><i class="fi-torso-female"></i></span>
+                                </div>
+
+                                <div class="small-10  columns">
+                                    {{ zayavka_form.zayavka_name }}
+                                </div>
+
+                            </div>
+
+                            <div class="row collapse">
+                                <div class="small-2 columns">
+                                    <span class="prefix"><i class="fi-telephone"></i></span>
+                                </div>
+                                <div class="small-10  columns">
+                                    {{ zayavka_form.phone_number }}
+                                </div>
+                            </div>
+                            <p class="sms_text">{{ sms_text }}</p>
+                            <p class="sms_text">{{ sms_request }}</p>
+                        </form>
+
+                        <a href="#" class="button ">Отправить </a>
+
+                        {# <p>Можете отправить расширенную заявку. <a href="#">Открыть &raquo</a></p> #}
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="medium-6 large-5 columns">
+            <h2 class="text-center subheader h2-bold">Позвоните или оставте заявку на сайте</h2>
+            <div class="telephon">
+                <div class="telephon_num">
+                    <p class="">+7 (917) 935 48 24</p>
+                </div>
+                <div class="telephon_ico"></div>
+            </div>
+            <hr>
+            <p>"Бережный груз" оссуществляет доставку вашего груза по городу Казань, Республике и ближайшим регионам.
+                Любой маршрут и характер груза обговариваются предворительно между заказчиком и
+                исполнителем.Своевременное выполнение заказа, исполнение всех пунктов договора является для нас
+                приоритетом в логистической деятельности. Заказывая услугу у нас на сайте вы страхуете себя и свой груз
+                от непрофессиональных исполнителей.</p>
+            <hr>
+
+
+        </div>
+    </div>
+    </div>
+
+</section>
+
+
+<section id="image">
+
+    <div id="razdelitel" class="row">
+        <div class="columns smal-12" style="height: 4em; margin-bottom: 2em;">
+            <div id="polosa" class="columns small-4"></div>
+
+            <div id="razdelitel-text" class="columns small-4">
+                <h2 class="text-center" style="color: #fcfcfc;">Преимущества</h2>
+            </div>
+            <div id="polosa" class="columns small-4"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="columns small-12">
+            <div class="columns small-8 small-centered">
+                <img src="/static/media/banner_bg.png" alt="" class="thumbnail">
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="columns small-12 text-center dostavim-text">
+            <h1>Доставим от двери до двери</h1>
+        </div>
+    </div>
+
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+
+    <div class="row features">
+
+        <div class="medium-3 columns">
+
+            <div class="service">
+
+                <div class="service-icon-box">
+
+                    <img src="/static/media/service1.png"
+                         alt="" class="service-icon">
+
+                </div>
+
+                <h4 class="service-heading">Исполнение <br>обязательств</h4>
+
+                <p class="service-description">Это правило.</p>
+
+            </div>
+
+        </div>
+
+        <div class="medium-3 columns">
+
+            <div class="service">
+
+                <div class="service-icon-box">
+
+                    <img src="/static/media/service2.png"
+                         alt="" class="service-icon">
+
+                </div>
+
+                <h4 class="service-heading">Сохранность <br>груза</h4>
+
+                <p class="service-description">Ну, если че, зуб отдам....</p>
+
+            </div>
+
+        </div>
+
+        <div class="medium-3 columns">
+
+            <div class="service">
+
+                <div class="service-icon-box">
+
+                    <img src="/static/media/service3.png"
+                         alt="" class="service-icon">
+
+                </div>
+
+                <h4 class="service-heading">Бережная <br>перевозка</h4>
+
+                <p class="service-description">Стойки поменяны, шины подкачал.</p>
+
+            </div>
+
+        </div>
+        <div class="medium-3 columns">
+
+            <div class="service">
+
+                <div class="service-icon-box">
+
+                    <img src="/static/media/service4.png"
+                         alt="" class="service-icon">
+
+                </div>
+
+                <h4 class="service-heading">Попутный <br>груз</h4>
+
+                <p class="service-description">Кто, что, куда везет?.</p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<main id="content">
+
+
+</main>
+
+
+<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+
+<header class="hero">
+
+    <h1></h1>
+
+    <h2 class="subheader"></h2>
+
+</header>
+
+<footer class="footer">
+
+    <div class="row">
+
+        <div class="small-12 medium-6 medium-push-6 columns">
+
+            <p class="footer-logo show-for-small-only"><i class="fi-target"></i> FIGHT CLUB</p>
+
+            <div class="row">
+
+                <div class="large-6 columns small-centered">
+
+                    <div class="signup-panel">
+                        <p class="welcome"> Обратный звонок!</p>
+
+                        <form action="/zayavka/" method="post">
+                            {% csrf_token %}
+
+                            <div class="row collapse">
+
+                                <div class="small-2  columns">
+                                    <span class="prefix"><i class="fi-torso-female"></i></span>
+                                </div>
+
+                                <div class="small-10  columns">
+                                    {{ zayavka_form.zayavka_name }}
+                                </div>
+
+                            </div>
+
+                            <div class="row collapse">
+                                <div class="small-2 columns">
+                                    <span class="prefix"><i class="fi-telephone"></i></span>
+                                </div>
+                                <div class="small-10  columns">
+                                    {{ zayavka_form.phone_number }}
+                                </div>
+                            </div>
+                            <p class="sms_text">{{ sms_text }}</p>
+                            <p class="sms_text">{{ sms_request }}</p>
+                        </form>
+
+                        <a href="#" class="button ">Отправить </a>
+
+                        {# <p>Можете отправить расширенную заявку. <a href="#">Открыть &raquo</a></p> #}
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="small-12 medium-6 medium-pull-6 columns">
+
+            <p class="footer-logo hide-for-small-only"><i class="fi-target"></i> Бережный груз</p>
+
+            <ul class="inline-list footer-social">
+
+                <a href="#"><i class="fi-social-facebook"></i></a>
+
+                <a href="#"><i class="fi-social-twitter"></i></a>
+
+                <a href="#"><i class="fi-social-linkedin"></i></a>
+
+                <a href="#"><i class="fi-social-github"></i></a>
+
+            </ul>
+
+            <p class="copywrite">Copywrite by JAGGER © 2016</p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

@@ -1,1 +1,1 @@
-web: gunicorn runp-heroku:bergruz
+web: gunicorn bergruz.wsgi --log-file -

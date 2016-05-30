@@ -21,5 +21,4 @@ import main.views as views
 
 urlpatterns = [
     url(r'^$', views.index_view, name='indexpage'),
-#    url(r'^zayavka/', views.zayavka_view, name='zayavka')
 ]

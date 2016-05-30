@@ -18,8 +18,8 @@ class Zayavka(models.Model):
 
 def sms_send(msg):
     url = "http://sms.ru/sms/send?api_id=%(api_id)s&to=%(to)s&text=%(msg)s"
-    id_api = "bc076be2-ec95-3844-c144-044488e51111"
-    number = "79872250067"
+    id_api = "AFAA4570-8FEE-0ADA-7EBE-781D7A61B515"
+    number = "9179354824"
     url = url % {'api_id': urlquote(id_api), 'to': urlquote(number), 'msg': urlquote(msg.encode('utf-8'))}
     res = urlopen(url)
     res = res.code

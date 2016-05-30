@@ -20,6 +20,6 @@ from django.conf.urls.static import static
 import main.views as views
 
 urlpatterns = [
-    url(r'^$', views.IndexPageView.as_view(), name='indexpage'),
-    url(r'^zayavka/', views.zayavka_view, name='zayavka')
+    url(r'^$', views.index_view, name='indexpage'),
+#    url(r'^zayavka/', views.zayavka_view, name='zayavka')
 ]

@@ -6,18 +6,18 @@ from .forms import ZayavkaForm
 from .models import sms_send
 
 
-class IndexPageView(TemplateView):
-    template_name = "index.html"
-    context_object_name = 'index'
+#class IndexPageView(TemplateView):
+#    template_name = "index.html"
+#    context_object_name = 'index'
 
-
+#    zayavka_view(request)
     # def get_context_data(self, **kwargs):
     #    context = super(HomePageView, self).get_context_data(**kwargs)
     #    context['latest_articles'] = Article.objects.all()[:5]
     #    return context
 
 
-def zayavka_view(request):
+def index_view(request):
     args = {}
 
     if request.method == 'POST':

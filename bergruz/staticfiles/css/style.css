@@ -268,7 +268,8 @@ margin-bottom: 0px;
 /* Стили разделителя */
 #razdelitel {
     height: 3em;
-    margin-top: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #polosa {
@@ -318,8 +319,7 @@ margin-bottom: 0px;
     height: 320px;
     margin: 0 0;
     text-align: center;
-/ /*border: 1px solid #ddd;*/
-/ -webkit-transition: all 0.3 s ease;
+    webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 

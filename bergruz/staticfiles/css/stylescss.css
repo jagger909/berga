@@ -1,29 +1,10 @@
 @charset "UTF-8";
-.header_logo {
-  width: 40px;
-  margin-left: 5px; }
+/* Header style */
+.top-bar {
+  border-top: 15px solid #1d1d1d;
+  background-color: Unset;
+  padding: Unset; }
 
-.top-bar .title-area {
-  margin: 0;
-  position: relative; }
-
-@media only screen and (min-width: 40.063em) {
-  .top-bar {
-    height: 6rem;
-    padding-top: 3rem;
-    position: relative; }
-
-  .top-bar .title-area {
-    float: left; }
-
-  .social-icons {
-    position: absolute;
-    right: 0;
-    top: -45px; }
-
-  .header_logo {
-    width: 70px;
-    margin-top: -2.3rem; } }
 /* Footer style */
 .hero {
   background: url("/static/media/dostavim.png") no-repeat center center;

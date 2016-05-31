@@ -1,19 +1,9 @@
 @charset "UTF-8";
 /* Header style */
 .top-bar {
-  border-top: 1em solid #1d1d1d;
+  border-top: 15px solid #1d1d1d;
   background-color: Unset;
-  padding: Unset;
-  margin-bottom: 3em; }
-  .top-bar .topbar-title {
-    margin-top: -1em; }
-
-/* Showcase style */
-.kazan {
-  margin-bottom: 2em; }
-
-.telephone {
-  margin: 2em 0; }
+  padding: Unset; }
 
 /* Footer style */
 .hero {
@@ -115,4 +105,4 @@ footer .signup-panel {
 #callback .telephon {
   margin: 0 0; }
 
-/*# sourceMappingURL=stylescss.css.map */
+/*# sourceMappingURL=stylescss.ebb32b4c121f.css.map */

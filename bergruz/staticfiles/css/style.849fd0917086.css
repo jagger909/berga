@@ -1,11 +1,11 @@
 
 body {
-    background-image: url(/static/media/white-paper.jpg);
+    background-image: url("/static/media/white-paper.c044d029f43d.jpg");
 }
 
 
 #showcase {
-    /*background: transparent url('/static/media/white-paper.jpg');*/
+    /*background: transparent url("/static/media/white-paper.c044d029f43d.jpg");*/
 }
 
 .showcasespacer {
@@ -68,7 +68,7 @@ body {
 }
 
 .module {
-    background: transparent url('/static/media/white-paper.jpg') repeat-x bottom left;
+    background: transparent url("/static/media/white-paper.c044d029f43d.jpg") repeat-x bottom left;
 }
 
 p {
@@ -79,7 +79,7 @@ p {
     margin: 0 0 85px 0;
     position: relative;
     z-index: 2;
-    background: #fcfcfc url('/static/media/white-paper.jpg') repeat-x 0 72px;
+    background: #fcfcfc url("/static/media/white-paper.c044d029f43d.jpg") repeat-x 0 72px;
     border-top: 15px solid #1d1d1d;
     -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.075);
     -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.075);

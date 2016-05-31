@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Foundation | Welcome</title>
+    <title>Бережный Груз | Мир Вам!</title>
     <link rel="stylesheet" href="{% static "css/foundation.min.css" %}">
     <link rel="stylesheet" href="{% static "css/foundation-icons.css" %}">
     <link rel="stylesheet" href="{% static "css/foundation-flex.css" %}">
@@ -24,7 +24,7 @@
 <div class="top-bar">
     <div class="topbar-title">
         <a href="#">
-            <img src="http://bg.antkzn.ru/templates/aventa/images/logos/logo_bg1.png" alt="ZURB">
+            <img src="{% static "media/logo_bg1.png" %}" alt="Бережный груз">
         </a>
     </div>
     <div id="responsive-menu">
@@ -41,11 +41,11 @@
     <div class="row">
 
         <div class="columns small-12 medium-6">
-            <img src="http://bg.antkzn.ru/templates/aventa/images/backgrounds/header_gazel.png">
+            <img src="{% static "media/header_gazel.png" %}">
         </div>
-        <div class="columns small-12 medium-6 align-middle">
-            <div class="row align-right">
-                <img class="" src="http://bg.antkzn.ru/templates/aventa/images/backgrounds/Kazan.png">
+        <div class="columns small-12 medium-6">
+            <div class="row align-right align-top kazan">
+                <img class="" src="{% static "media/Kazan.png" %}">
             </div>
             <div class="row align-right">
                 <div class="columns small-12">
@@ -57,7 +57,7 @@
                     <h2 class="subheader h2-bold text-right stat">Грузоперевозки</h2>
                 </div>
             </div>
-            <div class="row align-right">
+            <div class="row align-right telephone">
 
                 <div class="columns small-2 align-middle">
 
@@ -65,7 +65,7 @@
 
                 </div>
 
-                <div class="columns small-8 medium-9 align-middle">
+                <div class="columns small-8 align-middle">
 
                     <h2 class="subheader h2-bold text-right stat">+7 (917) 935 48 24</h2>
 

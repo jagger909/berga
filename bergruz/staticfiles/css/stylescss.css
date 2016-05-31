@@ -1,9 +1,19 @@
 @charset "UTF-8";
 /* Header style */
 .top-bar {
-  border-top: 15px solid #1d1d1d;
+  border-top: 1em solid #1d1d1d;
   background-color: Unset;
-  padding: Unset; }
+  padding: Unset;
+  margin-bottom: 3em; }
+  .top-bar .topbar-title {
+    margin-top: -1em; }
+
+/* Showcase style */
+.kazan {
+  margin-bottom: 2em; }
+
+.telephone {
+  margin: 2em 0; }
 
 /* Footer style */
 .hero {

@@ -54,19 +54,6 @@ body {
     line-height: 100%;
 }
 
-.telephon_num {
-    float: right;
-}
-
-.telephon_num p {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.telephon {
-    float: right;
-    margin-top: 50px;
-}
 
 .telephon_ico {
     float: right;

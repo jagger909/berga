@@ -3,27 +3,6 @@ body {
     background-image: url(/static/media/white-paper.jpg);
 }
 
-.top-block {
-    background: url('http://bg.antkzn.ru/templates/aventa/images/backgrounds/white-paper.jpg') repeat;
-    min-width: 1040px;
-}
-
-.home-logo {
-    position: absolute;
-    top: -20px;
-    left: 0;
-    z-index: 3;
-    margin-left: 14px;
-    margin-right: 10px;
-    width: 500px;
-    height: 122px;
-}
-
-.home-logo__default {
-    background: url("http://bg.antkzn.ru/templates/aventa/images/logos/logo_bg1.png") no-repeat;
-    width: 500px;
-    height: 122px;
-}
 
 #showcase {
     /*background: transparent url('/static/media/white-paper.jpg');*/

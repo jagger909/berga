@@ -1,13 +1,14 @@
 {% load staticfiles %}
 
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="" lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Foundation | Welcome</title>
     <link rel="stylesheet" href="{% static "css/foundation.min.css" %}">
     <link rel="stylesheet" href="{% static "css/foundation-icons.css" %}">
+    <link rel="stylesheet" href="{% static "css/foundation-flex.css" %}">
     <link rel="stylesheet" href="{% static "css/style.css" %}">
     <link rel="stylesheet" href="{% static "css/stylescss.css" %}">
 
@@ -20,59 +21,59 @@
 
 
 <body>
-<header id="page-header">
-    <div class="row">
-        <div id="headerwrap">
-            <div class="header">
-                <div class="home-logo">
-                    <div class="home-logo__default" role="img" aria-label="Бережный груз"></div>
-                </div>
+<div class="top-bar">
+    <div class="topbar-title">
+        <a href="#">
+            <img src="http://bg.antkzn.ru/templates/aventa/images/logos/logo_bg1.png" alt="ZURB">
+        </a>
+    </div>
+    <div id="responsive-menu">
+        <div class="top-bar-left">
 
-                <div class="top-bar">
+        </div>
+        <div class="top-bar-right">
 
-                    <div class="top-bar-left">
-
-                    </div>
-
-                    <div class="top-bar-right">
-
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-</header>
+</div>
 
 <section id="show_case">
     <div class="row">
-        <div class="columns-12">
 
-            <div class="columns small-6 helloimg">
-            </div>
-            <div class="columns small-6">
-                <div class="row">
-                    <div class="hello"></div>
-                </div>
-                <div class="row">
-
-                    <div class="hello_txt">
-                        <p class="hellointro"><span class="hellocolor">Доставка грузов</span></p>
-                        <p class="hellointro"><span class="hellocolor">Грузоперевозки</span></p>
-
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="telephon">
-                        <div class="telephon_num">
-                            <p class="">+7 (917) 935 48 24</p>
-                        </div>
-                        <div class="telephon_ico"></div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="columns small-12 medium-6">
+            <img src="http://bg.antkzn.ru/templates/aventa/images/backgrounds/header_gazel.png">
         </div>
+        <div class="columns small-12 medium-6 align-middle">
+            <div class="row align-right">
+                <img class="" src="http://bg.antkzn.ru/templates/aventa/images/backgrounds/Kazan.png">
+            </div>
+            <div class="row align-right">
+                <div class="columns small-12">
+                    <h2 class="subheader h2-bold text-right stat">Доставка грузов</h2>
+                </div>
+            </div>
+            <div class="row align-right">
+                <div class="columns small-12">
+                    <h2 class="subheader h2-bold text-right stat">Грузоперевозки</h2>
+                </div>
+            </div>
+            <div class="row align-right">
+
+                <div class="columns small-2 align-middle">
+
+                    <img class="" src="http://bg.antkzn.ru/templates/aventa/images/icons/telephone_ico.png" alt="">
+
+                </div>
+
+                <div class="columns small-8 medium-9 align-middle">
+
+                    <h2 class="subheader h2-bold text-right stat">+7 (917) 935 48 24</h2>
+
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -80,18 +81,18 @@
 
     <div id="razdelitel" class="row">
         <div class="columns smal-12" style="height: 4em; margin-bottom: 2em;">
-            <div id="polosa" class="columns small-4"></div>
+            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
 
-            <div id="razdelitel-text" class="columns small-4">
-                <h2 class="text-center" style="color: #fcfcfc; font-size: 2rem;">Свяжитесь с нами</h2>
+            <div id="razdelitel-text" class="columns small-8 medium-6 large-4">
+                <h2 class="text-center subheader" style="color: #fcfcfc; font-size: 2rem;">Свяжитесь с нами</h2>
             </div>
-            <div id="polosa" class="columns small-4"></div>
+            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
         </div>
     </div>
 
     <div class="row">
 
-        <div class="medium-6 columns">
+        <div class="small-12 medium-6 columns">
 
             <div class="row">
 
@@ -139,13 +140,22 @@
 
 
         </div>
-        <div class="small-6 columns">
+        <div class="small-12 medium-6 columns">
             <h2 class="text-center subheader h2-bold">Позвоните или оставте заявку на сайте</h2>
-            <div class="telephon">
-                <div class="telephon_num">
-                    <p class="">+7 (917) 935 48 24</p>
+            <div class="row align-center">
+
+                <div class="columns small-2 align-middle">
+
+                    <img class="" src="http://bg.antkzn.ru/templates/aventa/images/icons/telephone_ico.png" alt="">
+
                 </div>
-                <div class="telephon_ico"></div>
+
+                <div class="columns small-8 align-middle">
+
+                    <h2 class="subheader h2-bold text-right stat">+7 (917) 935 48 24</h2>
+
+                </div>
+
             </div>
             <hr>
             <p>"Бережный груз" оссуществляет доставку вашего груза по городу Казань, Республике и ближайшим регионам.
@@ -166,8 +176,9 @@
 <section id="image">
 
     <div class="row">
+
         <div class="columns small-12">
-            <div class="columns small-8 small-centered">
+            <div class="columns small-10 medium-8 small-centered">
                 <img src="/static/media/banner_bg.png" alt="" class="thumbnail">
             </div>
         </div>
@@ -176,12 +187,12 @@
 
     <div id="razdelitel" class="row">
         <div class="columns smal-12" style="height: 4em; margin-bottom: 2em;">
-            <div id="polosa" class="columns small-4"></div>
+            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
 
-            <div id="razdelitel-text" class="columns small-4">
-                <h2 class="text-center" style="color: #fcfcfc;">Преимущества</h2>
+            <div id="razdelitel-text" class="columns small-8 medium-6 large-4">
+                <h2 class="text-center subheader" style="color: #fcfcfc; font-size: 2rem;">Преимущества</h2>
             </div>
-            <div id="polosa" class="columns small-4"></div>
+            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
         </div>
     </div>
 
@@ -359,8 +370,10 @@
 
 </footer>
 
-<script src="{% static "js/vendor/jquery.js" %}"></script>
-<script src="{% static "js/vendor/foundation.js"></script>
+<script src="{% static "js/jquery.js" %}"></script>
+<script src="{% static "js/foundation.min.js" %}"></script>
+
+
 <script>
     $(document).foundation();
 </script>

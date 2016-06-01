@@ -1,3 +1,30 @@
+
+#show_case, .telephone, #razdelitel {
+
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    h2 {
+      font-size: 1.7rem;
+    }
+  }
+
+
+  /* Medium only */
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    h2 {
+      font-size: 1.7rem;
+    }
+  }
+
+
+  /* Large only */
+  @media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
 /* Header style */
 .top-bar {
   border-top: 1em solid #1d1d1d;
@@ -8,9 +35,10 @@
     margin-top: -1em;
   }
 }
+
 /* Showcase style */
 .kazan {
-  margin-bottom: 2em;
+  margin: 2em 0;
 }
 
 .telephone {

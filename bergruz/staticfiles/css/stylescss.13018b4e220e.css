@@ -1,18 +1,4 @@
 @charset "UTF-8";
-#show_case, .telephone, #razdelitel {
-  /* Small only */
-  /* Medium only */
-  /* Large only */ }
-  @media screen and (max-width: 39.9375em) {
-    #show_case h2, .telephone h2, #razdelitel h2 {
-      font-size: 1.7rem; } }
-  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    #show_case h2, .telephone h2, #razdelitel h2 {
-      font-size: 1.7rem; } }
-  @media screen and (min-width: 64em) and (max-width: 74.9375em) {
-    #show_case h2, .telephone h2, #razdelitel h2 {
-      font-size: 2.7rem; } }
-
 /* Header style */
 .top-bar {
   border-top: 1em solid #1d1d1d;
@@ -24,7 +10,7 @@
 
 /* Showcase style */
 .kazan {
-  margin: 2em 0; }
+  margin-bottom: 2em; }
 
 .telephone {
   margin: 2em 0; }
@@ -129,4 +115,4 @@ footer .signup-panel {
 #callback .telephon {
   margin: 0 0; }
 
-/*# sourceMappingURL=stylescss.css.map */
+/*# sourceMappingURL=stylescss.13018b4e220e.css.map */

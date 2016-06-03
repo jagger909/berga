@@ -7536,7 +7536,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.625rem;
+    font-size: 1.55rem;
 }
 
 h3 {
@@ -9080,8 +9080,8 @@ body {
 
 /* Стили разделителя */
 #razdelitel {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 #polosa {
@@ -9180,4 +9180,10 @@ body {
     cursor: auto;
 }
 
-/* Telephone */
+#callback {
+    background-color: #484848;
+}
+
+.baner-preim {
+    margin-top: 3em;
+}

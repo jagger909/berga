@@ -62,9 +62,6 @@
         </div>
 
     </div>
-</section>
-
-<section id="callback">
 
     <div id="razdelitel" class="row align-center align-middle">
         <div id="polosa" class="columns small-2 medium-3 large-4"></div>
@@ -74,7 +71,14 @@
         </div>
         <div id="polosa" class="columns small-2 medium-3 large-4"></div>
     </div>
+</section>
 
+<section id="callback">
+
+
+    <div class="row column show-for-small-only">
+        <h2 class="subheader text-center ">Позвоните или оставте заявку на сайте</h2>
+    </div>
     <div class="row">
 
         <div class="small-12 medium-6 columns">
@@ -84,7 +88,7 @@
                 <div class="medium-8 columns small-centered">
 
                     <div class="signup-panel">
-                        <p class="welcome"> Обратный звонок!</p>
+                        <h4 class="subheader text-center"> Обратный звонок!</h4>
 
                         <form action="/zayavka/" method="post">
                             {% csrf_token %}
@@ -126,7 +130,7 @@
 
         </div>
         <div class="small-12 medium-6 columns">
-            <h2 class="text-center subheader">Позвоните или оставте заявку на сайте</h2>
+            <h2 class="text-center subheader hide-for-small-only">Позвоните или оставте заявку на сайте</h2>
             <div class="row text-right align-right align-middle telephone">
                 <div class="column small-12">
 
@@ -140,13 +144,12 @@
             </div>
             <div class="row columns">
                 <hr>
-                <p>"Бережный груз" оссуществляет доставку вашего груза по городу Казань, Республике и ближайшим
-                    регионам.
-                    Любой маршрут и характер груза обговариваются предворительно между заказчиком и
-                    исполнителем.Своевременное выполнение заказа, исполнение всех пунктов договора является для нас
-                    приоритетом в логистической деятельности. Заказывая услугу у нас на сайте вы страхуете себя и свой
-                    груз
-                    от непрофессиональных исполнителей.</p>
+                <h5 class="subheader"><span style="color: #00a8ff">"Бережный груз"</span> оссуществляет доставку вашего
+                    груза по городу Казань, Республике и ближайшим регионам.<br>Любой маршрут и характер груза
+                    обговариваются предворительно между заказчиком и исполнителем. Своевременное выполнение заказа,
+                    исполнение всех пунктов договора является для нас приоритетом в логистической деятельности.
+                    Заказывая услугу у нас на сайте вы страхуете себя и свой груз от непрофессиональных исполнителей.
+                </h5>
                 <hr>
             </div>
 
@@ -157,13 +160,13 @@
 </section>
 
 
-<section id="image">
+<section id="image" class="baner-preim">
 
     <div class="row">
 
         <div class="columns small-12">
             <div class="columns small-10 medium-8 small-centered">
-                <img src="{% static 'bergruz/media/banner_bg.png' %}" alt="" class="thumbnail">
+                <img src="{% static 'bergruz/media/banner_bg.jpg' %}" alt="" class="thumbnail">
             </div>
         </div>
 

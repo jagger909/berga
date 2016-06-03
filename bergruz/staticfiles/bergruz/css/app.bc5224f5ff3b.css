@@ -8907,7 +8907,7 @@ select[multiple] {
 
 /* Footer style */
 .hero {
-    background: url("../media/dostavim.png") no-repeat center center;
+    background: url("../media/dostavim.709ae39a1cbc.png") no-repeat center center;
     background-size: 80%;
     margin-bottom: -1em;
     height: 150px;
@@ -9036,7 +9036,7 @@ footer .signup-panel {
 }
 
 body {
-    background-image: url("../media/white-paper.jpg");
+    background-image: url("../media/white-paper.c044d029f43d.jpg");
 }
 
 .hellocolor {

@@ -1,30 +1,21 @@
 {% load staticfiles %}
 
-<!doctype html>
 <html class="" lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Бережный Груз | Мир Вам!</title>
-    <link rel="stylesheet" href="{% static "css/foundation.min.css" %}">
-    <link rel="stylesheet" href="{% static "css/foundation-icons.css" %}">
-    <link rel="stylesheet" href="{% static "css/foundation-flex.css" %}">
-    <link rel="stylesheet" href="{% static "css/style.css" %}">
-    <link rel="stylesheet" href="{% static "css/stylescss.css" %}">
+    <link rel="stylesheet" href="{% static 'bergruz/css/foundation.css' %}">
+    <link rel="stylesheet" href="{% static 'bergruz/css/foundation-icons/foundation-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'bergruz/css/app.css' %}">
 
-
-    <style>
-
-
-    </style>
 </head>
-
 
 <body>
 <div class="top-bar">
     <div class="topbar-title">
         <a href="#">
-            <img src="{% static "media/logo_bg1.png" %}" alt="Бережный груз">
+            <img src="{% static 'bergruz/media/logo_bg1.png' %}" alt="Бережный груз">
         </a>
     </div>
     <div id="responsive-menu">
@@ -40,34 +31,30 @@
 <section id="show_case">
     <div class="row">
 
-        <div class="columns small-12 medium-6">
-            <img src="{% static "media/header_gazel.png" %}">
+        <div class="columns small-12 medium-5">
+            <img src="{% static 'bergruz/media/header_gazel.png' %}">
         </div>
-        <div class="columns small-12 medium-6">
+        <div class="columns small-12 medium-7">
             <div class="row align-right align-top kazan">
-                <img class="" src="{% static "media/Kazan.png" %}">
+                <img class="" src="{% static 'bergruz/media/Kazan.png' %}">
             </div>
             <div class="row align-right">
                 <div class="columns small-12">
-                    <h2 class="subheader h2-bold text-right">Доставка грузов</h2>
+                    <h2 class="subheader text-right">Доставка грузов</h2>
                 </div>
             </div>
             <div class="row align-right">
                 <div class="columns small-12">
-                    <h2 class="subheader h2-bold text-right">Грузоперевозки</h2>
+                    <h2 class="subheader text-right">Грузоперевозки</h2>
                 </div>
             </div>
-            <div class="row align-right telephone">
+            <div class="row text-right align-middle telephone">
+                <div class="column">
 
-                <div class="columns small-2 align-middle">
-
-                    <img class="" src="http://bg.antkzn.ru/templates/aventa/images/icons/telephone_ico.png" alt="">
-
-                </div>
-
-                <div class="columns small-10 large-8 align-middle">
-
-                    <h2 class="subheader h2-bold text-right">+7(917) 935-48-24</h2>
+                    <h2 class="subheader">
+                        <img class="resources-icon" src="{% static 'bergruz/media/telephone_ico.png' %}" alt="">
+                        +7 (917) 935-48-24
+                    </h2>
 
                 </div>
 
@@ -79,15 +66,13 @@
 
 <section id="callback">
 
-    <div id="razdelitel" class="row">
-        <div class="columns smal-12" style="height: 4em; margin-bottom: 2em;">
-            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
+    <div id="razdelitel" class="row align-center align-middle">
+        <div id="polosa" class="columns small-2 medium-3 large-4"></div>
 
-            <div id="razdelitel-text" class="columns small-8 medium-6 large-4">
-                <h2 class="text-center subheader" style="color: #fcfcfc;">Свяжитесь с нами</h2>
-            </div>
-            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
+        <div id="razdelitel-text" class="columns small-8 medium-6 large-4">
+            <h2 class="text-center subheader" style="color: #fcfcfc;">Свяжитесь с нами</h2>
         </div>
+        <div id="polosa" class="columns small-2 medium-3 large-4"></div>
     </div>
 
     <div class="row">
@@ -141,20 +126,20 @@
 
         </div>
         <div class="small-12 medium-6 columns">
-            <h2 class="text-center subheader h2-bold">Позвоните или оставте заявку на сайте</h2>
-            <div class="row align-center telephone">
+            <h2 class="text-center subheader">Позвоните или оставте заявку на сайте</h2>
+            <div class="row text-right align-right align-middle telephone">
+                <div class="column small-12">
 
-                <div class="columns small-2 align-middle">
-
-                    <img class="" src="http://bg.antkzn.ru/templates/aventa/images/icons/telephone_ico.png" alt="">
-
-                </div>
-
-                <div class="columns small-10 large-8 align-middle">
-
-                    <h2 class="subheader h2-bold text-right">+7(917) 935-48-24</h2>
+                    <h2 class="subheader">
+                        <img class="resources-icon" src="{% static 'bergruz/media/telephone_ico.png' %}" alt="">
+                        +7 (917) 935-48-24
+                    </h2>
 
                 </div>
+
+            </div>
+                </div>
+    </div>
 
             </div>
             <hr>
@@ -179,21 +164,19 @@
 
         <div class="columns small-12">
             <div class="columns small-10 medium-8 small-centered">
-                <img src="/static/media/banner_bg.png" alt="" class="thumbnail">
+                <img src="{% static 'bergruz/media/banner_bg.png' %}" alt="" class="thumbnail">
             </div>
         </div>
 
     </div>
 
-    <div id="razdelitel" class="row">
-        <div class="columns smal-12" style="height: 4em; margin-bottom: 2em;">
-            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
+    <div id="razdelitel" class="row align-center align-middle">
+        <div id="polosa" class="columns small-2 medium-3 large-4"></div>
 
-            <div id="razdelitel-text" class="columns small-8 medium-6 large-4">
-                <h2 class="text-center subheader" style="color: #fcfcfc;">Преимущества</h2>
-            </div>
-            <div id="polosa" class="columns small-2 medium-3 large-4"></div>
+        <div id="razdelitel-text" class="columns small-8 medium-6 large-4">
+            <h2 class="text-center subheader" style="color: #fcfcfc;">Преимущества</h2>
         </div>
+        <div id="polosa" class="columns small-2 medium-3 large-4"></div>
     </div>
 
 
@@ -205,7 +188,7 @@
 
                 <div class="service-icon-box">
 
-                    <img src="/static/media/service1.png"
+                    <img src="{% static 'bergruz/media/service1.png' %}"
                          alt="" class="service-icon">
 
                 </div>
@@ -224,7 +207,7 @@
 
                 <div class="service-icon-box">
 
-                    <img src="/static/media/service2.png"
+                    <img src="{% static 'bergruz/media/service2.png' %}"
                          alt="" class="service-icon">
 
                 </div>
@@ -243,7 +226,7 @@
 
                 <div class="service-icon-box">
 
-                    <img src="/static/media/service3.png"
+                    <img src="{% static 'bergruz/media/service3.png' %}"
                          alt="" class="service-icon">
 
                 </div>
@@ -261,7 +244,7 @@
 
                 <div class="service-icon-box">
 
-                    <img src="/static/media/service4.png"
+                    <img src="{% static 'bergruz/media/service4.png' %}"
                          alt="" class="service-icon">
 
                 </div>
@@ -370,8 +353,9 @@
 
 </footer>
 
-<script src="{% static "js/jquery.js" %}"></script>
-<script src="{% static "js/foundation.min.js" %}"></script>
+<script src="{% static 'bergruz/js/jquery.js' %}"></script>
+<script src="{% static 'bergruz/js/foundation.js' %}"></script>
+<script src="{% static 'bergruz/js/app.js' %}"></script>
 
 <script>
     $(document).foundation();

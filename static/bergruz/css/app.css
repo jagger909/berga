@@ -1431,7 +1431,7 @@ h6 small {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 h2 {
@@ -1439,15 +1439,15 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1875rem;
+    font-size: 1.35rem;
 }
 
 h4 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
 h5 {
-    font-size: 1.0625rem;
+    font-size: 1.15rem;
 }
 
 h6 {
@@ -1456,7 +1456,7 @@ h6 {
 
 @media screen and (min-width: 40em) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     h2 {
@@ -1464,15 +1464,15 @@ h6 {
     }
 
     h3 {
-        font-size: 1.9375rem;
+        font-size: 1.3rem;
     }
 
     h4 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     h5 {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 
     h6 {

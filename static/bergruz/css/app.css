@@ -11,8 +11,10 @@
    * 2. Prevent iOS and IE text size adjust after device orientation change,
    *    without disabling user zoom.
    */
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,cyrillic);
+
 html {
-    font-family: sans-serif;
+    font-family: 'Arimo', sans-serif;
     /* 1 */
     -ms-text-size-adjust: 100%;
     /* 2 */
@@ -418,7 +420,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: normal;
     line-height: 1.5;
     color: #0a0a0a;
@@ -1408,7 +1410,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: normal;
     font-style: normal;
     color: inherit;
@@ -4908,8 +4910,7 @@ table.hover tr:nth-of-type(even):hover {
    *    without disabling user zoom.
    */
 html {
-    font-family: sans-serif;
-    /* 1 */
+    font-family: 'Arimo', sans-serif; /* 1 */
     -ms-text-size-adjust: 100%;
     /* 2 */
     -webkit-text-size-adjust: 100%;
@@ -5314,7 +5315,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: normal;
     line-height: 1.5;
     color: #0a0a0a;
@@ -7511,7 +7512,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-weight: normal;
     font-style: normal;
     color: inherit;
